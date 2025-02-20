@@ -6,10 +6,10 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                "themes/default/css/app.css",
-                "themes/default/js/app.js"
+                "themes/Saturn/css/app.css",
+                "themes/Saturn/js/app.js"
             ],
-            buildDirectory: "default/",
+            buildDirectory: "Saturn/",
         }),
         {
             name: "blade",
